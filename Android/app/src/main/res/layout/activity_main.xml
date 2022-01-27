@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ttv.spleeterdemo.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/btn_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Open Wav File" />
+
+
+        <TextView
+            android:id="@+id/txtProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:layout_below="@+id/btn_open"
+            android:text=""
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/txtIn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtProgress"
+            android:layout_alignStart="@+id/btn_open"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Input File: "
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/txtOut"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/txtIn"
+            android:layout_alignStart="@+id/txtIn"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Output Folder: " />
+
+
+        <TextView
+            android:id="@+id/txtPlayProgress"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/txtOut"
+            android:layout_alignStart="@+id/txtOut"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Play: " />
+
+        <TextView
+            android:id="@+id/txtVocal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/txtPlayProgress"
+            android:layout_alignStart="@+id/txtOut"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Vocal: " />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPlayProgress"
+            android:layout_alignStart="@+id/txtPlayProgress"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="40dp"
+            android:max="200"
+            android:progress="100" />
+
+        <TextView
+            android:id="@+id/txtPiano"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/seekBar1"
+            android:layout_alignStart="@+id/txtVocal"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Piano: " />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekBar1"
+            android:layout_alignStart="@+id/seekBar1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:max="200"
+            android:progress="100" />
+
+        <TextView
+            android:id="@+id/txtDrum"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/seekBar2"
+            android:layout_alignStart="@+id/txtPiano"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Drum: " />
+
+        <SeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekBar2"
+            android:layout_alignStart="@+id/seekBar2"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:max="200"
+            android:progress="100" />
+
+        <TextView
+            android:id="@+id/txtBass"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/seekBar3"
+            android:layout_alignStart="@+id/txtDrum"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Bass: " />
+
+        <SeekBar
+            android:id="@+id/seekBar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekBar3"
+            android:layout_alignStart="@+id/seekBar3"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:max="200"
+            android:progress="100" />
+
+        <TextView
+            android:id="@+id/txtOther"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/seekBar4"
+            android:layout_alignStart="@+id/txtBass"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Other: " />
+
+        <SeekBar
+            android:id="@+id/seekBar5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekBar4"
+            android:layout_alignStart="@+id/seekBar4"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:max="200"
+            android:progress="100" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
