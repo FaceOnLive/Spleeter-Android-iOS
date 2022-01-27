@@ -25,8 +25,8 @@ Vocals / drums / bass / piano / other separation
 </br>
 
 ##  ⚛️  Screenshot
-![image_2022_01_27T17_00_26_123Z](https://user-images.githubusercontent.com/91896009/151416616-c3930948-1281-45b2-b158-36688efe9339.png)
-
+![Screen Shot 2022-01-28 at 3 08 20 AM](https://user-images.githubusercontent.com/91896009/151428308-14b819d7-b7b8-443d-b8bd-8073f856ba0b.png)&emsp;&emsp;&emsp;
+![Screen Shot 2022-01-28 at 3 08 20 AM](https://user-images.githubusercontent.com/91896009/151428142-bd57395f-fdb0-4eee-b6f3-b9f2914f86b9.png)
 
 ## :clap:  Supporters
 [![Stargazers repo roster for @faceonlive/Spleeter-Android-iOS](https://reporoster.com/stars/faceonlive/Spleeter-Android-iOS)](https://github.com/faceonlive/Spleeter-Android-iOS/stargazers)
