@@ -1,0 +1,6 @@
+framework module SpleeterSDK {
+  umbrella header "SpleeterSDK.h"
+
+  export *
+  module * { export * }
+}

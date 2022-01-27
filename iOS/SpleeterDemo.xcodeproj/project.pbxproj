@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2DBB502786189B002F297D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DBB4F2786189B002F297D /* AppDelegate.swift */; };
+		CE2DBB522786189B002F297D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DBB512786189B002F297D /* SceneDelegate.swift */; };
+		CE2DBB542786189B002F297D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DBB532786189B002F297D /* ViewController.swift */; };
+		CE2DBB572786189B002F297D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2DBB552786189B002F297D /* Main.storyboard */; };
+		CE2DBB59278618AD002F297D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2DBB58278618AD002F297D /* Assets.xcassets */; };
+		CE2DBB5C278618AD002F297D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2DBB5A278618AD002F297D /* LaunchScreen.storyboard */; };
+		CE2DBB67278618AD002F297D /* SpleeterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DBB66278618AD002F297D /* SpleeterDemoTests.swift */; };
+		CE2DBB71278618AD002F297D /* SpleeterDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DBB70278618AD002F297D /* SpleeterDemoUITests.swift */; };
+		CE2DBB73278618AD002F297D /* SpleeterDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DBB72278618AD002F297D /* SpleeterDemoUITestsLaunchTests.swift */; };
+		CE2DBB95278618FE002F297D /* data1.bin in Resources */ = {isa = PBXBuildFile; fileRef = CE2DBB8A278618FE002F297D /* data1.bin */; };
+		CE2DBB96278618FE002F297D /* data2.bin in Resources */ = {isa = PBXBuildFile; fileRef = CE2DBB8B278618FE002F297D /* data2.bin */; };
+		CE2DBB97278618FE002F297D /* data3.bin in Resources */ = {isa = PBXBuildFile; fileRef = CE2DBB8C278618FE002F297D /* data3.bin */; };
+		CE2DBB98278618FE002F297D /* data4.bin in Resources */ = {isa = PBXBuildFile; fileRef = CE2DBB8D278618FE002F297D /* data4.bin */; };
+		CE2DBBA1278683E9002F297D /* _input.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE2DBBA0278683E9002F297D /* _input.wav */; };
+		CE2DBBED27869810002F297D /* SpleeterSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2DBBEA278695FA002F297D /* SpleeterSDK.framework */; platformFilter = ios; };
+		CE2DBBEE27869810002F297D /* SpleeterSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE2DBBEA278695FA002F297D /* SpleeterSDK.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2DBB63278618AD002F297D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2DBB442786189B002F297D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2DBB4B2786189B002F297D;
+			remoteInfo = SpleeterDemo;
+		};
+		CE2DBB6D278618AD002F297D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2DBB442786189B002F297D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2DBB4B2786189B002F297D;
+			remoteInfo = SpleeterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE2DBBEF27869810002F297D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE2DBBEE27869810002F297D /* SpleeterSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE2DBB4C2786189B002F297D /* SpleeterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpleeterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2DBB4F2786189B002F297D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE2DBB512786189B002F297D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE2DBB532786189B002F297D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE2DBB562786189B002F297D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2DBB58278618AD002F297D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2DBB5B278618AD002F297D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2DBB5D278618AD002F297D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2DBB62278618AD002F297D /* SpleeterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpleeterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2DBB66278618AD002F297D /* SpleeterDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpleeterDemoTests.swift; sourceTree = "<group>"; };
+		CE2DBB6C278618AD002F297D /* SpleeterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpleeterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2DBB70278618AD002F297D /* SpleeterDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpleeterDemoUITests.swift; sourceTree = "<group>"; };
+		CE2DBB72278618AD002F297D /* SpleeterDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpleeterDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE2DBB8A278618FE002F297D /* data1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = data1.bin; sourceTree = "<group>"; };
+		CE2DBB8B278618FE002F297D /* data2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = data2.bin; sourceTree = "<group>"; };
+		CE2DBB8C278618FE002F297D /* data3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = data3.bin; sourceTree = "<group>"; };
+		CE2DBB8D278618FE002F297D /* data4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = data4.bin; sourceTree = "<group>"; };
+		CE2DBB9A2786192F002F297D /* SpleeterDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpleeterDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE2DBBA0278683E9002F297D /* _input.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = _input.wav; sourceTree = "<group>"; };
+		CE2DBBEA278695FA002F297D /* SpleeterSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpleeterSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2DBB492786189B002F297D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2DBBED27869810002F297D /* SpleeterSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2DBB5F278618AD002F297D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2DBB69278618AD002F297D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2DBB432786189B002F297D = {
+			isa = PBXGroup;
+			children = (
+				CE2DBB4E2786189B002F297D /* SpleeterDemo */,
+				CE2DBB65278618AD002F297D /* SpleeterDemoTests */,
+				CE2DBB6F278618AD002F297D /* SpleeterDemoUITests */,
+				CE2DBB4D2786189B002F297D /* Products */,
+				CE2DBB9B27861A3F002F297D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2DBB4D2786189B002F297D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2DBB4C2786189B002F297D /* SpleeterDemo.app */,
+				CE2DBB62278618AD002F297D /* SpleeterDemoTests.xctest */,
+				CE2DBB6C278618AD002F297D /* SpleeterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2DBB4E2786189B002F297D /* SpleeterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CE2DBB89278618FE002F297D /* assets */,
+				CE2DBB9A2786192F002F297D /* SpleeterDemo-Bridging-Header.h */,
+				CE2DBB4F2786189B002F297D /* AppDelegate.swift */,
+				CE2DBB512786189B002F297D /* SceneDelegate.swift */,
+				CE2DBB532786189B002F297D /* ViewController.swift */,
+				CE2DBB552786189B002F297D /* Main.storyboard */,
+				CE2DBB58278618AD002F297D /* Assets.xcassets */,
+				CE2DBB5A278618AD002F297D /* LaunchScreen.storyboard */,
+				CE2DBB5D278618AD002F297D /* Info.plist */,
+			);
+			path = SpleeterDemo;
+			sourceTree = "<group>";
+		};
+		CE2DBB65278618AD002F297D /* SpleeterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2DBB66278618AD002F297D /* SpleeterDemoTests.swift */,
+			);
+			path = SpleeterDemoTests;
+			sourceTree = "<group>";
+		};
+		CE2DBB6F278618AD002F297D /* SpleeterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2DBB70278618AD002F297D /* SpleeterDemoUITests.swift */,
+				CE2DBB72278618AD002F297D /* SpleeterDemoUITestsLaunchTests.swift */,
+			);
+			path = SpleeterDemoUITests;
+			sourceTree = "<group>";
+		};
+		CE2DBB89278618FE002F297D /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				CE2DBBA0278683E9002F297D /* _input.wav */,
+				CE2DBB8A278618FE002F297D /* data1.bin */,
+				CE2DBB8B278618FE002F297D /* data2.bin */,
+				CE2DBB8C278618FE002F297D /* data3.bin */,
+				CE2DBB8D278618FE002F297D /* data4.bin */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		CE2DBB9B27861A3F002F297D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE2DBBEA278695FA002F297D /* SpleeterSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2DBB4B2786189B002F297D /* SpleeterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2DBB76278618AE002F297D /* Build configuration list for PBXNativeTarget "SpleeterDemo" */;
+			buildPhases = (
+				CE2DBB482786189B002F297D /* Sources */,
+				CE2DBB492786189B002F297D /* Frameworks */,
+				CE2DBB4A2786189B002F297D /* Resources */,
+				CE2DBBEF27869810002F297D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpleeterDemo;
+			productName = SpleeterDemo;
+			productReference = CE2DBB4C2786189B002F297D /* SpleeterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2DBB61278618AD002F297D /* SpleeterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2DBB79278618AE002F297D /* Build configuration list for PBXNativeTarget "SpleeterDemoTests" */;
+			buildPhases = (
+				CE2DBB5E278618AD002F297D /* Sources */,
+				CE2DBB5F278618AD002F297D /* Frameworks */,
+				CE2DBB60278618AD002F297D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2DBB64278618AD002F297D /* PBXTargetDependency */,
+			);
+			name = SpleeterDemoTests;
+			productName = SpleeterDemoTests;
+			productReference = CE2DBB62278618AD002F297D /* SpleeterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE2DBB6B278618AD002F297D /* SpleeterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2DBB7C278618AE002F297D /* Build configuration list for PBXNativeTarget "SpleeterDemoUITests" */;
+			buildPhases = (
+				CE2DBB68278618AD002F297D /* Sources */,
+				CE2DBB69278618AD002F297D /* Frameworks */,
+				CE2DBB6A278618AD002F297D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2DBB6E278618AD002F297D /* PBXTargetDependency */,
+			);
+			name = SpleeterDemoUITests;
+			productName = SpleeterDemoUITests;
+			productReference = CE2DBB6C278618AD002F297D /* SpleeterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2DBB442786189B002F297D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CE2DBB4B2786189B002F297D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CE2DBB61278618AD002F297D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CE2DBB4B2786189B002F297D;
+					};
+					CE2DBB6B278618AD002F297D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CE2DBB4B2786189B002F297D;
+					};
+				};
+			};
+			buildConfigurationList = CE2DBB472786189B002F297D /* Build configuration list for PBXProject "SpleeterDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2DBB432786189B002F297D;
+			productRefGroup = CE2DBB4D2786189B002F297D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2DBB4B2786189B002F297D /* SpleeterDemo */,
+				CE2DBB61278618AD002F297D /* SpleeterDemoTests */,
+				CE2DBB6B278618AD002F297D /* SpleeterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2DBB4A2786189B002F297D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2DBB96278618FE002F297D /* data2.bin in Resources */,
+				CE2DBB97278618FE002F297D /* data3.bin in Resources */,
+				CE2DBB5C278618AD002F297D /* LaunchScreen.storyboard in Resources */,
+				CE2DBB59278618AD002F297D /* Assets.xcassets in Resources */,
+				CE2DBB572786189B002F297D /* Main.storyboard in Resources */,
+				CE2DBBA1278683E9002F297D /* _input.wav in Resources */,
+				CE2DBB98278618FE002F297D /* data4.bin in Resources */,
+				CE2DBB95278618FE002F297D /* data1.bin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2DBB60278618AD002F297D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2DBB6A278618AD002F297D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2DBB482786189B002F297D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2DBB542786189B002F297D /* ViewController.swift in Sources */,
+				CE2DBB502786189B002F297D /* AppDelegate.swift in Sources */,
+				CE2DBB522786189B002F297D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2DBB5E278618AD002F297D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2DBB67278618AD002F297D /* SpleeterDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2DBB68278618AD002F297D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2DBB71278618AD002F297D /* SpleeterDemoUITests.swift in Sources */,
+				CE2DBB73278618AD002F297D /* SpleeterDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2DBB64278618AD002F297D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2DBB4B2786189B002F297D /* SpleeterDemo */;
+			targetProxy = CE2DBB63278618AD002F297D /* PBXContainerItemProxy */;
+		};
+		CE2DBB6E278618AD002F297D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2DBB4B2786189B002F297D /* SpleeterDemo */;
+			targetProxy = CE2DBB6D278618AD002F297D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE2DBB552786189B002F297D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2DBB562786189B002F297D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2DBB5A278618AD002F297D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2DBB5B278618AD002F297D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2DBB74278618AE002F297D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE2DBB75278618AE002F297D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2DBB77278618AE002F297D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSUUF48N9C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpleeterDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turing.liveness.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SpleeterDemo/SpleeterDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		CE2DBB78278618AE002F297D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSUUF48N9C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpleeterDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turing.liveness.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SpleeterDemo/SpleeterDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+		CE2DBB7A278618AE002F297D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U72WCFFMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turing.liveness.ios.SpleeterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpleeterDemo.app/SpleeterDemo";
+			};
+			name = Debug;
+		};
+		CE2DBB7B278618AE002F297D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U72WCFFMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turing.liveness.ios.SpleeterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpleeterDemo.app/SpleeterDemo";
+			};
+			name = Release;
+		};
+		CE2DBB7D278618AE002F297D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U72WCFFMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turing.liveness.ios.SpleeterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpleeterDemo;
+			};
+			name = Debug;
+		};
+		CE2DBB7E278618AE002F297D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U72WCFFMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = turing.liveness.ios.SpleeterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpleeterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2DBB472786189B002F297D /* Build configuration list for PBXProject "SpleeterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2DBB74278618AE002F297D /* Debug */,
+				CE2DBB75278618AE002F297D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2DBB76278618AE002F297D /* Build configuration list for PBXNativeTarget "SpleeterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2DBB77278618AE002F297D /* Debug */,
+				CE2DBB78278618AE002F297D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2DBB79278618AE002F297D /* Build configuration list for PBXNativeTarget "SpleeterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2DBB7A278618AE002F297D /* Debug */,
+				CE2DBB7B278618AE002F297D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2DBB7C278618AE002F297D /* Build configuration list for PBXNativeTarget "SpleeterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2DBB7D278618AE002F297D /* Debug */,
+				CE2DBB7E278618AE002F297D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2DBB442786189B002F297D /* Project object */;
+}
