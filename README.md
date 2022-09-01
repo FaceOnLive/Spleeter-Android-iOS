@@ -2,7 +2,10 @@
 <p align="center">On-device, Offline Spleeter Solution For Android & iOS</p>
 
 <p align="center">
-<a href="https://t.me/faceonlive"><img src="https://badgen.net/badge/icon/telegram?icon=telegram&label" alt="Telegram" height="20"/></a>
+<a target="_blank" href="mailto:contact@faceonlive.com"><img src="https://img.shields.io/badge/email-contact@faceonlive.com-blue.svg?logo=gmail " alt="www.faceonlive.com"></a>&emsp;
+<a target="_blank" href="https://t.me/faceonlive"><img src="https://img.shields.io/badge/telegram-@faceonlive-blue.svg?logo=telegram " alt="www.faceonlive.com"></a>&emsp;
+<a target="_blank" href="https://wa.me/+17074043606"><img src="https://img.shields.io/badge/whatsapp-faceonlive-blue.svg?logo=whatsapp " alt="www.faceonlive.com"></a>&emsp;
+<a target="_blank" href="skype:demidemi1125?chat"><img src="https://img.shields.io/badge/skype-demidemi1125-blue.svg?logo=skype " alt="www.faceonlive.com"></a>
 </p>
 
 Spleeter is Deezer source separation library with pretrained models written in Python and uses Tensorflow. It makes it easy to train source separation model (assuming you have a dataset of isolated sources), and provides already trained state of the art model for performing various flavour of separation
